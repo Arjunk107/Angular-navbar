@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #c4c4c4;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 30%;
+        text-transform: uppercase;
+
+        &__h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 43px;
+        }
+
+        &--h1 {
+            font-size: 50px;
+        }
+    }
+
+    &__navs {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    &__a {
+        font-size: 20px;
+        color: grey;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
